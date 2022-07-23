@@ -4,7 +4,7 @@ tradingview.com
 
 Date range is customizable by varying the start and end date variables
 
-'''
+'''ruby
 import pandas as pd
 url = 'https://archives.nseindia.com/content/indices/ind_nifty500list.csv'
 NSE500_data = pd.read_csv(url)
